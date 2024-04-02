@@ -70,7 +70,7 @@ public class ClienteDto {
 		
 	//constructores
 	public ClienteDto() {}
-	public ClienteDto(long id, String dni, String nombreCompleto,String email, String contrasenia) 
+	public ClienteDto(long id, String nombreCompleto,String dni,String email, String contrasenia) 
 	{
 		this.id = id;
 		this.dni = dni;
